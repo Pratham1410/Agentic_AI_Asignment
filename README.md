@@ -11,7 +11,7 @@ SupportBot is an intelligent customer support chatbot designed to answer queries
 ✅ **Error Handling**: Gracefully handles out-of-scope queries and document loading issues.
 
 ## 🧠 Why These Models Were Chosen?
-SupportBot leverages **SentenceTransformer ('all-MiniLM-L6-v2')** for semantic embeddings and **FLAN-T5 ('google/flan-t5-base')** for generative answering due to their efficiency, accuracy, and suitability for real-time applications. **SentenceTransformer ('all-MiniLM-L6-v2')** is lightweight, fast, and effective for document retrieval, ensuring rapid similarity matching without excessive computational costs. It balances semantic understanding and performance, making it ideal for real-time chatbot interactions. **FLAN-T5 ('google/flan-t5-base')** generates natural, context-aware responses, handles open-ended queries, and adapts well to various question-answering tasks. Unlike extractive models such as **BERT or RoBERTa**, which rigidly extract answers, FLAN-T5 provides more human-like responses even when the exact answer isn’t explicitly present. This hybrid approach—combining **TF-IDF + embeddings for retrieval** with **FLAN-T5 for answering**—ensures **both efficiency and a superior user experience** with fluent, human-like responses.
+I have used **SentenceTransformer ('all-MiniLM-L6-v2')** for semantic embeddings and **FLAN-T5 ('google/flan-t5-base')** for generative answering due to their efficiency, accuracy, and suitability for real-time applications. **SentenceTransformer ('all-MiniLM-L6-v2')** is lightweight, fast, and effective for document retrieval, ensuring rapid similarity matching without excessive computational costs. It balances semantic understanding and performance, making it ideal for real-time chatbot interactions. **FLAN-T5 ('google/flan-t5-base')** generates natural, context-aware responses, handles open-ended queries, and adapts well to various question-answering tasks. Unlike extractive models such as **BERT or RoBERTa**, which just extract answers from the text, FLAN-T5 provides more human-like responses. This hybrid approach—combining **TF-IDF + embeddings for retrieval** with **FLAN-T5 for answering**—ensures **both efficiency and a superior user experience** with fluent, human-like responses.
 
 ## 🚀 Deployment Steps
 ### 1️⃣ Install Dependencies
@@ -40,5 +40,3 @@ print(response)
 🔹 **Fine-Tuning for Specific Domains**: Adapt FLAN-T5 and the SentenceTransformer model for domain-specific needs.  
 🔹 **Enhanced RAG with LLMs**: Improve response quality by integrating **larger language models** and **better retrieval-augmented generation (RAG) techniques**.  
 
----
-Would you like suggestions for a better model combination based on your hardware and accuracy needs? 🤖
