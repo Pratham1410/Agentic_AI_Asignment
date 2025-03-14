@@ -1,0 +1,433 @@
+2025-03-14 13:10:40,629 - INFO - Logging initialized successfully.
+
+
+2025-03-14 13:10:40,756 - INFO - Starting SupportBotAgent...
+2025-03-14 13:10:40,757 - INFO - Initializing SupportBotAgent...
+2025-03-14 13:10:40,757 - INFO - Attempting to load document: /content/Assignment.txt
+2025-03-14 13:10:40,757 - INFO - Document successfully loaded and processed.
+2025-03-14 13:10:40,757 - INFO - Loading sentence embedding model...
+2025-03-14 13:10:40,762 - INFO - Use pytorch device_name: cpu
+2025-03-14 13:10:40,762 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-14 13:10:44,445 - INFO - Loading question-answering model google/flan-t5-base
+2025-03-14 13:10:47,173 - INFO - Processing document into structured text chunks...
+2025-03-14 13:10:47,173 - INFO - Starting document chunking process...
+2025-03-14 13:10:47,790 - INFO - Document successfully chunked into 3 sections.
+2025-03-14 13:10:47,791 - INFO - Document processed into 3 chunks.
+2025-03-14 13:10:47,791 - INFO - Computing TF-IDF vectors for keyword-based retrieval...
+2025-03-14 13:10:47,801 - INFO - Computing sentence embeddings for semantic search...
+2025-03-14 13:10:48,155 - INFO - SupportBotAgent successfully initialized.
+2025-03-14 13:10:48,155 - INFO - Processing query: How do I reset my password?
+2025-03-14 13:10:48,155 - INFO - Retrieving relevant section for query: How do I reset my password?
+2025-03-14 13:10:48,241 - INFO - Top relevant section found with similarity score: 0.77
+2025-03-14 13:10:48,241 - INFO - Generating response using NLP model...
+2025-03-14 13:10:53,492 - INFO - Simulated feedback: too vague
+2025-03-14 13:10:53,492 - INFO - Generated answer: Go to the login page and click "Forgot Password." Enter your email and follow the link sent to you. | Feedback: too vague
+2025-03-14 13:10:53,492 - INFO - Reattempting answer generation with more detail.
+2025-03-14 13:10:53,492 - INFO - Retrieving relevant section for query: How do I reset my password?
+2025-03-14 13:10:53,569 - INFO - Top relevant section found with similarity score: 0.77
+2025-03-14 13:10:53,570 - INFO - Generating response using NLP model...
+2025-03-14 13:10:57,225 - INFO - Simulated feedback: too vague
+2025-03-14 13:10:57,226 - INFO - Generated answer: Go to the login page and click "Forgot Password." Enter your email and follow the link sent to you. | Feedback: too vague
+2025-03-14 13:10:57,226 - INFO - Reattempting answer generation with more detail.
+2025-03-14 13:10:57,226 - INFO - Final response for query: How do I reset my password? | Answer: Go to the login page and click "Forgot Password." Enter your email and follow the link sent to you.
+2025-03-14 13:10:57,226 - INFO - Processing query: What’s the refund policy?
+2025-03-14 13:10:57,226 - INFO - Retrieving relevant section for query: What’s the refund policy?
+2025-03-14 13:10:57,337 - INFO - Top relevant section found with similarity score: 0.70
+2025-03-14 13:10:57,337 - INFO - Generating response using NLP model...
+2025-03-14 13:10:59,657 - INFO - Simulated feedback: too vague
+2025-03-14 13:10:59,657 - INFO - Generated answer: We offer refunds within 30 days of purchase | Feedback: too vague
+2025-03-14 13:10:59,657 - INFO - Reattempting answer generation with more detail.
+2025-03-14 13:10:59,657 - INFO - Retrieving relevant section for query: What’s the refund policy?
+2025-03-14 13:10:59,746 - INFO - Top relevant section found with similarity score: 0.70
+2025-03-14 13:10:59,746 - INFO - Generating response using NLP model...
+2025-03-14 13:11:01,716 - INFO - Simulated feedback: good
+2025-03-14 13:11:01,716 - INFO - Generated answer: We offer refunds within 30 days of purchase | Feedback: good
+2025-03-14 13:11:01,716 - INFO - Answer accepted based on feedback.
+2025-03-14 13:11:01,716 - INFO - Final response for query: What’s the refund policy? | Answer: We offer refunds within 30 days of purchase
+2025-03-14 13:11:01,716 - INFO - Processing query: How do I fly to the moon?
+2025-03-14 13:11:01,716 - INFO - Retrieving relevant section for query: How do I fly to the moon?
+2025-03-14 13:11:01,804 - WARNING - No relevant section found, returning fallback response.
+2025-03-14 13:11:01,805 - INFO - No relevant context found for query: How do I fly to the moon?
+2025-03-14 13:11:01,805 - INFO - SupportBotAgent execution completed.
+
+
+2025-03-14 13:11:59,546 - INFO - Starting SupportBotAgent...
+2025-03-14 13:11:59,547 - INFO - Initializing SupportBotAgent...
+2025-03-14 13:11:59,547 - INFO - Attempting to load document: /content/Customer_Support_Document.pdf
+2025-03-14 13:11:59,778 - INFO - Document successfully loaded and processed.
+2025-03-14 13:11:59,778 - INFO - Loading sentence embedding model...
+2025-03-14 13:11:59,782 - INFO - Use pytorch device_name: cpu
+2025-03-14 13:11:59,782 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-14 13:12:02,632 - INFO - Loading question-answering model google/flan-t5-base
+2025-03-14 13:12:05,250 - INFO - Processing document into structured text chunks...
+2025-03-14 13:12:05,250 - INFO - Starting document chunking process...
+2025-03-14 13:12:07,415 - INFO - Document successfully chunked into 27 sections.
+2025-03-14 13:12:07,415 - INFO - Document processed into 27 chunks.
+2025-03-14 13:12:07,415 - INFO - Computing TF-IDF vectors for keyword-based retrieval...
+2025-03-14 13:12:07,420 - INFO - Computing sentence embeddings for semantic search...
+2025-03-14 13:12:08,948 - INFO - SupportBotAgent successfully initialized.
+2025-03-14 13:12:08,948 - INFO - Processing query: How do I reset my password?
+2025-03-14 13:12:08,948 - INFO - Retrieving relevant section for query: How do I reset my password?
+2025-03-14 13:12:09,030 - INFO - Top relevant section found with similarity score: 0.69
+2025-03-14 13:12:09,030 - INFO - Generating response using NLP model...
+2025-03-14 13:12:15,008 - INFO - Simulated feedback: too vague
+2025-03-14 13:12:15,008 - INFO - Generated answer: To reset your password, visit the login page and click on "Forgot Password." Enter your registered email address and follow the instructions sent to your inbox. If you do not receive an email within 10 minutes, check your spam folder or contact support. | Feedback: too vague
+2025-03-14 13:12:15,008 - INFO - Reattempting answer generation with more detail.
+2025-03-14 13:12:15,008 - INFO - Retrieving relevant section for query: How do I reset my password?
+2025-03-14 13:12:15,055 - INFO - Top relevant section found with similarity score: 0.69
+2025-03-14 13:12:15,055 - INFO - Generating response using NLP model...
+2025-03-14 13:12:20,202 - INFO - Simulated feedback: too vague
+2025-03-14 13:12:20,203 - INFO - Generated answer: To reset your password, visit the login page and click on "Forgot Password." Enter your registered email address and follow the instructions sent to your inbox. If you do not receive an email within 10 minutes, check your spam folder or contact support. | Feedback: too vague
+2025-03-14 13:12:20,203 - INFO - Reattempting answer generation with more detail.
+2025-03-14 13:12:20,203 - INFO - Final response for query: How do I reset my password? | Answer: To reset your password, visit the login page and click on "Forgot Password." Enter your registered email address and follow the instructions sent to your inbox. If you do not receive an email within 10 minutes, check your spam folder or contact support.
+2025-03-14 13:12:20,203 - INFO - Processing query: What’s the refund policy?
+2025-03-14 13:12:20,203 - INFO - Retrieving relevant section for query: What’s the refund policy?
+2025-03-14 13:12:20,255 - INFO - Top relevant section found with similarity score: 0.64
+2025-03-14 13:12:20,255 - INFO - Generating response using NLP model...
+2025-03-14 13:12:22,119 - INFO - Simulated feedback: too vague
+2025-03-14 13:12:22,119 - INFO - Generated answer: If you are not satisfied with your purchase, you can request a refund within 30 days of delivery | Feedback: too vague
+2025-03-14 13:12:22,119 - INFO - Reattempting answer generation with more detail.
+2025-03-14 13:12:22,119 - INFO - Retrieving relevant section for query: What’s the refund policy?
+2025-03-14 13:12:22,172 - INFO - Top relevant section found with similarity score: 0.64
+2025-03-14 13:12:22,172 - INFO - Generating response using NLP model...
+2025-03-14 13:12:24,063 - INFO - Simulated feedback: too vague
+2025-03-14 13:12:24,063 - INFO - Generated answer: If you are not satisfied with your purchase, you can request a refund within 30 days of delivery | Feedback: too vague
+2025-03-14 13:12:24,063 - INFO - Reattempting answer generation with more detail.
+2025-03-14 13:12:24,063 - INFO - Final response for query: What’s the refund policy? | Answer: If you are not satisfied with your purchase, you can request a refund within 30 days of delivery
+2025-03-14 13:12:24,063 - INFO - Processing query: How do I fly to the moon?
+2025-03-14 13:12:24,063 - INFO - Retrieving relevant section for query: How do I fly to the moon?
+2025-03-14 13:12:24,116 - WARNING - No relevant section found, returning fallback response.
+2025-03-14 13:12:24,116 - INFO - No relevant context found for query: How do I fly to the moon?
+2025-03-14 13:12:24,116 - INFO - SupportBotAgent execution completed.
+
+
+2025-03-14 13:14:36,095 - INFO - Starting SupportBotAgent...
+2025-03-14 13:14:36,095 - INFO - Initializing SupportBotAgent...
+2025-03-14 13:14:36,098 - INFO - Attempting to load document: /content/Assignment.txt
+2025-03-14 13:14:36,099 - INFO - Document successfully loaded and processed.
+2025-03-14 13:14:36,099 - INFO - Loading sentence embedding model...
+2025-03-14 13:14:36,111 - INFO - Use pytorch device_name: cpu
+2025-03-14 13:14:36,111 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-14 13:14:37,070 - INFO - Loading question-answering model ahotrod/albert_xxlargev1_squad2
+
+
+2025-03-14 13:15:49,226 - INFO - Starting SupportBotAgent...
+2025-03-14 13:15:49,227 - INFO - Initializing SupportBotAgent...
+2025-03-14 13:15:49,227 - INFO - Attempting to load document: /content/Assignment.txt
+2025-03-14 13:15:49,227 - INFO - Document successfully loaded and processed.
+2025-03-14 13:15:49,227 - INFO - Loading sentence embedding model...
+2025-03-14 13:15:49,238 - INFO - Use pytorch device_name: cpu
+2025-03-14 13:15:49,238 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-14 13:15:52,624 - INFO - Loading question-answering model distilbert-base-uncased-distilled-squad
+2025-03-14 13:15:53,042 - INFO - Processing document into structured text chunks...
+2025-03-14 13:15:53,042 - INFO - Starting document chunking process...
+2025-03-14 13:15:53,181 - INFO - Document successfully chunked into 3 sections.
+2025-03-14 13:15:53,181 - INFO - Document processed into 3 chunks.
+2025-03-14 13:15:53,182 - INFO - Computing TF-IDF vectors for keyword-based retrieval...
+2025-03-14 13:15:53,188 - INFO - Computing sentence embeddings for semantic search...
+2025-03-14 13:15:53,311 - INFO - SupportBotAgent successfully initialized.
+2025-03-14 13:15:53,311 - INFO - Processing query: How do I reset my password?
+2025-03-14 13:15:53,311 - INFO - Retrieving relevant section for query: How do I reset my password?
+2025-03-14 13:15:53,390 - INFO - Top relevant section found with similarity score: 0.77
+2025-03-14 13:15:53,391 - INFO - Generating response using NLP model...
+
+
+2025-03-14 13:17:39,052 - INFO - Starting SupportBotAgent...
+2025-03-14 13:17:39,052 - INFO - Initializing SupportBotAgent...
+2025-03-14 13:17:39,052 - INFO - Attempting to load document: /content/Assignment.txt
+2025-03-14 13:17:39,052 - INFO - Document successfully loaded and processed.
+2025-03-14 13:17:39,052 - INFO - Loading sentence embedding model...
+2025-03-14 13:17:39,056 - INFO - Use pytorch device_name: cpu
+2025-03-14 13:17:39,057 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-14 13:17:39,802 - INFO - Loading question-answering model distilbert-base-uncased-distilled-squad
+2025-03-14 13:17:40,374 - INFO - Processing document into structured text chunks...
+2025-03-14 13:17:40,374 - INFO - Starting document chunking process...
+2025-03-14 13:17:40,753 - INFO - Document successfully chunked into 3 sections.
+2025-03-14 13:17:40,754 - INFO - Document processed into 3 chunks.
+2025-03-14 13:17:40,754 - INFO - Computing TF-IDF vectors for keyword-based retrieval...
+2025-03-14 13:17:40,769 - INFO - Computing sentence embeddings for semantic search...
+2025-03-14 13:17:41,249 - INFO - SupportBotAgent successfully initialized.
+2025-03-14 13:17:41,250 - INFO - Processing query: How do I reset my password?
+2025-03-14 13:17:41,250 - INFO - Retrieving relevant section for query: How do I reset my password?
+2025-03-14 13:17:41,510 - INFO - Top relevant section found with similarity score: 0.77
+2025-03-14 13:17:41,511 - INFO - Generating response using NLP model...
+
+
+2025-03-14 13:19:13,641 - INFO - Starting SupportBotAgent...
+2025-03-14 13:19:13,641 - INFO - Initializing SupportBotAgent...
+2025-03-14 13:19:13,641 - INFO - Attempting to load document: /content/Assignment.txt
+2025-03-14 13:19:13,641 - INFO - Document successfully loaded and processed.
+2025-03-14 13:19:13,641 - INFO - Loading sentence embedding model...
+2025-03-14 13:19:13,645 - INFO - Use pytorch device_name: cpu
+2025-03-14 13:19:13,645 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-14 13:19:14,141 - INFO - Loading question-answering model distilbert-base-uncased-distilled-squad
+2025-03-14 13:19:14,294 - INFO - Processing document into structured text chunks...
+2025-03-14 13:19:14,294 - INFO - Starting document chunking process...
+2025-03-14 13:19:14,437 - INFO - Document successfully chunked into 3 sections.
+2025-03-14 13:19:14,437 - INFO - Document processed into 3 chunks.
+2025-03-14 13:19:14,437 - INFO - Computing TF-IDF vectors for keyword-based retrieval...
+2025-03-14 13:19:14,441 - INFO - Computing sentence embeddings for semantic search...
+2025-03-14 13:19:14,558 - INFO - SupportBotAgent successfully initialized.
+2025-03-14 13:19:14,558 - INFO - Processing query: How do I reset my password?
+2025-03-14 13:19:14,558 - INFO - Retrieving relevant section for query: How do I reset my password?
+2025-03-14 13:19:14,613 - INFO - Top relevant section found with similarity score: 0.77
+2025-03-14 13:19:14,614 - INFO - Generating response using NLP model...
+2025-03-14 13:19:14,744 - WARNING - The question-answering pipeline returned an unexpected result.
+2025-03-14 13:19:14,745 - WARNING - Final response could not be generated successfully.
+2025-03-14 13:19:14,745 - INFO - Final response for query: How do I reset my password? | Answer: I'm sorry, I couldn't generate a satisfactory answer.
+2025-03-14 13:19:14,745 - INFO - Processing query: What’s the refund policy?
+2025-03-14 13:19:14,745 - INFO - Retrieving relevant section for query: What’s the refund policy?
+2025-03-14 13:19:14,800 - INFO - Top relevant section found with similarity score: 0.70
+2025-03-14 13:19:14,800 - INFO - Generating response using NLP model...
+2025-03-14 13:19:14,929 - WARNING - The question-answering pipeline returned an unexpected result.
+2025-03-14 13:19:14,929 - WARNING - Final response could not be generated successfully.
+2025-03-14 13:19:14,929 - INFO - Final response for query: What’s the refund policy? | Answer: I'm sorry, I couldn't generate a satisfactory answer.
+2025-03-14 13:19:14,929 - INFO - Processing query: How do I fly to the moon?
+2025-03-14 13:19:14,929 - INFO - Retrieving relevant section for query: How do I fly to the moon?
+2025-03-14 13:19:14,979 - WARNING - No relevant section found, returning fallback response.
+2025-03-14 13:19:14,979 - INFO - No relevant context found for query: How do I fly to the moon?
+2025-03-14 13:19:14,979 - INFO - SupportBotAgent execution completed.
+
+
+2025-03-14 13:21:28,474 - INFO - Starting SupportBotAgent...
+2025-03-14 13:21:28,474 - INFO - Initializing SupportBotAgent...
+2025-03-14 13:21:28,475 - INFO - Attempting to load document: /content/Assignment.txt
+2025-03-14 13:21:28,476 - INFO - Document successfully loaded and processed.
+2025-03-14 13:21:28,476 - INFO - Loading sentence embedding model...
+2025-03-14 13:21:28,482 - INFO - Use pytorch device_name: cpu
+2025-03-14 13:21:28,482 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-14 13:21:29,093 - INFO - Loading question-answering model t5-large
+2025-03-14 13:21:34,059 - INFO - Processing document into structured text chunks...
+2025-03-14 13:21:34,059 - INFO - Starting document chunking process...
+2025-03-14 13:21:34,204 - INFO - Document successfully chunked into 3 sections.
+2025-03-14 13:21:34,204 - INFO - Document processed into 3 chunks.
+2025-03-14 13:21:34,204 - INFO - Computing TF-IDF vectors for keyword-based retrieval...
+2025-03-14 13:21:34,209 - INFO - Computing sentence embeddings for semantic search...
+2025-03-14 13:21:34,331 - INFO - SupportBotAgent successfully initialized.
+2025-03-14 13:21:34,332 - INFO - Processing query: How do I reset my password?
+2025-03-14 13:21:34,332 - INFO - Retrieving relevant section for query: How do I reset my password?
+2025-03-14 13:21:34,392 - INFO - Top relevant section found with similarity score: 0.77
+2025-03-14 13:21:34,392 - INFO - Generating response using NLP model...
+2025-03-14 13:21:59,433 - INFO - Simulated feedback: not helpful
+2025-03-14 13:21:59,433 - INFO - Generated answer: not_duplicate | Feedback: not helpful
+2025-03-14 13:21:59,433 - INFO - Reattempting answer generation with clearer phrasing.
+2025-03-14 13:21:59,433 - INFO - Retrieving relevant section for query: How do I reset my password?
+2025-03-14 13:21:59,480 - INFO - Top relevant section found with similarity score: 0.77
+2025-03-14 13:21:59,480 - INFO - Generating response using NLP model...
+2025-03-14 13:22:02,049 - INFO - Simulated feedback: too vague
+2025-03-14 13:22:02,050 - INFO - Generated answer: not_duplicate | Feedback: too vague
+2025-03-14 13:22:02,050 - INFO - Reattempting answer generation with more detail.
+2025-03-14 13:22:02,050 - INFO - Final response for query: How do I reset my password? | Answer: not_duplicate
+2025-03-14 13:22:02,050 - INFO - Processing query: What’s the refund policy?
+2025-03-14 13:22:02,050 - INFO - Retrieving relevant section for query: What’s the refund policy?
+2025-03-14 13:22:02,102 - INFO - Top relevant section found with similarity score: 0.70
+2025-03-14 13:22:02,103 - INFO - Generating response using NLP model...
+2025-03-14 13:22:04,078 - INFO - Simulated feedback: too vague
+2025-03-14 13:22:04,078 - INFO - Generated answer: not_duplicate | Feedback: too vague
+2025-03-14 13:22:04,078 - INFO - Reattempting answer generation with more detail.
+2025-03-14 13:22:04,078 - INFO - Retrieving relevant section for query: What’s the refund policy?
+2025-03-14 13:22:04,129 - INFO - Top relevant section found with similarity score: 0.70
+2025-03-14 13:22:04,129 - INFO - Generating response using NLP model...
+2025-03-14 13:22:06,103 - INFO - Simulated feedback: not helpful
+2025-03-14 13:22:06,104 - INFO - Generated answer: not_duplicate | Feedback: not helpful
+2025-03-14 13:22:06,104 - INFO - Reattempting answer generation with clearer phrasing.
+2025-03-14 13:22:06,104 - INFO - Final response for query: What’s the refund policy? | Answer: not_duplicate
+2025-03-14 13:22:06,104 - INFO - Processing query: How do I fly to the moon?
+2025-03-14 13:22:06,104 - INFO - Retrieving relevant section for query: How do I fly to the moon?
+2025-03-14 13:22:06,153 - WARNING - No relevant section found, returning fallback response.
+2025-03-14 13:22:06,153 - INFO - No relevant context found for query: How do I fly to the moon?
+2025-03-14 13:22:06,153 - INFO - SupportBotAgent execution completed.
+
+
+2025-03-14 13:22:40,532 - INFO - Starting SupportBotAgent...
+2025-03-14 13:22:40,532 - INFO - Initializing SupportBotAgent...
+2025-03-14 13:22:40,532 - INFO - Attempting to load document: /content/Assignment.txt
+2025-03-14 13:22:40,533 - INFO - Document successfully loaded and processed.
+2025-03-14 13:22:40,533 - INFO - Loading sentence embedding model...
+2025-03-14 13:22:40,537 - INFO - Use pytorch device_name: cpu
+2025-03-14 13:22:40,537 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-14 13:22:45,718 - INFO - Loading question-answering model google/flan-t5-base
+2025-03-14 13:22:46,931 - INFO - Processing document into structured text chunks...
+2025-03-14 13:22:46,931 - INFO - Starting document chunking process...
+2025-03-14 13:22:47,111 - INFO - Document successfully chunked into 3 sections.
+2025-03-14 13:22:47,112 - INFO - Document processed into 3 chunks.
+2025-03-14 13:22:47,112 - INFO - Computing TF-IDF vectors for keyword-based retrieval...
+2025-03-14 13:22:47,115 - INFO - Computing sentence embeddings for semantic search...
+2025-03-14 13:22:47,316 - INFO - SupportBotAgent successfully initialized.
+2025-03-14 13:22:47,316 - INFO - Processing query: How do I reset my password?
+2025-03-14 13:22:47,316 - INFO - Retrieving relevant section for query: How do I reset my password?
+2025-03-14 13:22:47,382 - INFO - Top relevant section found with similarity score: 0.77
+2025-03-14 13:22:47,383 - INFO - Generating response using NLP model...
+2025-03-14 13:22:49,850 - INFO - Simulated feedback: not helpful
+2025-03-14 13:22:49,850 - INFO - Generated answer: Go to the login page and click "Forgot Password." Enter your email and follow the link sent to you. | Feedback: not helpful
+2025-03-14 13:22:49,850 - INFO - Reattempting answer generation with clearer phrasing.
+2025-03-14 13:22:49,850 - INFO - Retrieving relevant section for query: How do I reset my password?
+2025-03-14 13:22:49,901 - INFO - Top relevant section found with similarity score: 0.77
+2025-03-14 13:22:49,901 - INFO - Generating response using NLP model...
+2025-03-14 13:22:52,172 - INFO - Simulated feedback: good
+2025-03-14 13:22:52,172 - INFO - Generated answer: Go to the login page and click "Forgot Password." Enter your email and follow the link sent to you. | Feedback: good
+2025-03-14 13:22:52,172 - INFO - Answer accepted based on feedback.
+2025-03-14 13:22:52,172 - INFO - Final response for query: How do I reset my password? | Answer: Go to the login page and click "Forgot Password." Enter your email and follow the link sent to you.
+2025-03-14 13:22:52,172 - INFO - Processing query: What’s the refund policy?
+2025-03-14 13:22:52,172 - INFO - Retrieving relevant section for query: What’s the refund policy?
+2025-03-14 13:22:52,227 - INFO - Top relevant section found with similarity score: 0.70
+2025-03-14 13:22:52,227 - INFO - Generating response using NLP model...
+2025-03-14 13:22:53,225 - INFO - Simulated feedback: too vague
+2025-03-14 13:22:53,225 - INFO - Generated answer: We offer refunds within 30 days of purchase | Feedback: too vague
+2025-03-14 13:22:53,225 - INFO - Reattempting answer generation with more detail.
+2025-03-14 13:22:53,225 - INFO - Retrieving relevant section for query: What’s the refund policy?
+2025-03-14 13:22:53,284 - INFO - Top relevant section found with similarity score: 0.70
+2025-03-14 13:22:53,285 - INFO - Generating response using NLP model...
+2025-03-14 13:22:54,292 - INFO - Simulated feedback: too vague
+2025-03-14 13:22:54,292 - INFO - Generated answer: We offer refunds within 30 days of purchase | Feedback: too vague
+2025-03-14 13:22:54,292 - INFO - Reattempting answer generation with more detail.
+2025-03-14 13:22:54,292 - INFO - Final response for query: What’s the refund policy? | Answer: We offer refunds within 30 days of purchase
+2025-03-14 13:22:54,292 - INFO - Processing query: How do I fly to the moon?
+2025-03-14 13:22:54,292 - INFO - Retrieving relevant section for query: How do I fly to the moon?
+2025-03-14 13:22:54,346 - WARNING - No relevant section found, returning fallback response.
+2025-03-14 13:22:54,346 - INFO - No relevant context found for query: How do I fly to the moon?
+2025-03-14 13:22:54,346 - INFO - SupportBotAgent execution completed.
+
+
+2025-03-14 13:24:40,301 - INFO - Starting SupportBotAgent...
+2025-03-14 13:24:40,301 - INFO - Initializing SupportBotAgent...
+2025-03-14 13:24:40,301 - INFO - Attempting to load document: /content/Assignment.txt
+2025-03-14 13:24:40,302 - INFO - Document successfully loaded and processed.
+2025-03-14 13:24:40,302 - INFO - Loading sentence embedding model  paraphrase-MiniLM-L12-v2...
+2025-03-14 13:24:40,306 - INFO - Use pytorch device_name: cpu
+2025-03-14 13:24:40,306 - INFO - Load pretrained SentenceTransformer: paraphrase-MiniLM-L12-v2
+2025-03-14 13:24:43,757 - INFO - Loading question-answering model google/flan-t5-base
+2025-03-14 13:24:46,124 - INFO - Processing document into structured text chunks...
+2025-03-14 13:24:46,124 - INFO - Starting document chunking process...
+2025-03-14 13:24:46,460 - INFO - Document successfully chunked into 3 sections.
+2025-03-14 13:24:46,461 - INFO - Document processed into 3 chunks.
+2025-03-14 13:24:46,461 - INFO - Computing TF-IDF vectors for keyword-based retrieval...
+2025-03-14 13:24:46,464 - INFO - Computing sentence embeddings for semantic search...
+2025-03-14 13:24:46,788 - INFO - SupportBotAgent successfully initialized.
+2025-03-14 13:24:46,788 - INFO - Processing query: How do I reset my password?
+2025-03-14 13:24:46,789 - INFO - Retrieving relevant section for query: How do I reset my password?
+2025-03-14 13:24:46,866 - INFO - Top relevant section found with similarity score: 0.63
+2025-03-14 13:24:46,866 - INFO - Generating response using NLP model...
+2025-03-14 13:24:49,365 - INFO - Simulated feedback: good
+2025-03-14 13:24:49,365 - INFO - Generated answer: Go to the login page and click "Forgot Password." Enter your email and follow the link sent to you. | Feedback: good
+2025-03-14 13:24:49,365 - INFO - Answer accepted based on feedback.
+2025-03-14 13:24:49,365 - INFO - Final response for query: How do I reset my password? | Answer: Go to the login page and click "Forgot Password." Enter your email and follow the link sent to you.
+2025-03-14 13:24:49,366 - INFO - Processing query: What’s the refund policy?
+2025-03-14 13:24:49,366 - INFO - Retrieving relevant section for query: What’s the refund policy?
+2025-03-14 13:24:49,435 - INFO - Top relevant section found with similarity score: 0.61
+2025-03-14 13:24:49,435 - INFO - Generating response using NLP model...
+2025-03-14 13:24:50,467 - INFO - Simulated feedback: too vague
+2025-03-14 13:24:50,468 - INFO - Generated answer: We offer refunds within 30 days of purchase | Feedback: too vague
+2025-03-14 13:24:50,468 - INFO - Reattempting answer generation with more detail.
+2025-03-14 13:24:50,468 - INFO - Retrieving relevant section for query: What’s the refund policy?
+2025-03-14 13:24:50,537 - INFO - Top relevant section found with similarity score: 0.61
+2025-03-14 13:24:50,537 - INFO - Generating response using NLP model...
+2025-03-14 13:24:51,520 - INFO - Simulated feedback: too vague
+2025-03-14 13:24:51,521 - INFO - Generated answer: We offer refunds within 30 days of purchase | Feedback: too vague
+2025-03-14 13:24:51,521 - INFO - Reattempting answer generation with more detail.
+2025-03-14 13:24:51,521 - INFO - Final response for query: What’s the refund policy? | Answer: We offer refunds within 30 days of purchase
+2025-03-14 13:24:51,521 - INFO - Processing query: How do I fly to the moon?
+2025-03-14 13:24:51,521 - INFO - Retrieving relevant section for query: How do I fly to the moon?
+2025-03-14 13:24:51,601 - WARNING - No relevant section found, returning fallback response.
+2025-03-14 13:24:51,601 - INFO - No relevant context found for query: How do I fly to the moon?
+2025-03-14 13:24:51,601 - INFO - SupportBotAgent execution completed.
+
+
+2025-03-14 13:30:41,094 - INFO - Starting SupportBotAgent...
+2025-03-14 13:30:41,094 - INFO - Initializing SupportBotAgent...
+2025-03-14 13:30:41,094 - INFO - Attempting to load document: /content/Assignment.txt
+2025-03-14 13:30:41,094 - INFO - Document successfully loaded and processed.
+2025-03-14 13:30:41,094 - INFO - Loading sentence embedding model...
+2025-03-14 13:30:41,101 - INFO - Use pytorch device_name: cpu
+2025-03-14 13:30:41,101 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-14 13:30:41,990 - INFO - Loading question-answering model google/flan-t5-base
+2025-03-14 13:30:43,428 - INFO - Processing document into structured text chunks...
+2025-03-14 13:30:43,428 - INFO - Starting document chunking process...
+2025-03-14 13:30:43,567 - INFO - Document successfully chunked into 3 sections.
+2025-03-14 13:30:43,567 - INFO - Document processed into 3 chunks.
+2025-03-14 13:30:43,567 - INFO - Computing TF-IDF vectors for keyword-based retrieval...
+2025-03-14 13:30:43,573 - INFO - Computing sentence embeddings for semantic search...
+2025-03-14 13:30:43,699 - INFO - SupportBotAgent successfully initialized.
+2025-03-14 13:30:43,699 - INFO - Processing query: How do I reset my password?
+2025-03-14 13:30:43,699 - INFO - Retrieving relevant section for query: How do I reset my password?
+2025-03-14 13:30:43,755 - INFO - Top relevant section found with similarity score: 0.77
+2025-03-14 13:30:43,756 - INFO - Generating response using NLP model...
+2025-03-14 13:30:46,254 - INFO - Simulated feedback: too vague
+2025-03-14 13:30:46,255 - INFO - Generated answer: Go to the login page and click "Forgot Password." Enter your email and follow the link sent to you. | Feedback: too vague
+2025-03-14 13:30:46,255 - INFO - Reattempting answer generation with more detail.
+2025-03-14 13:30:46,255 - INFO - Retrieving relevant section for query: How do I reset my password?
+2025-03-14 13:30:46,303 - INFO - Top relevant section found with similarity score: 0.77
+2025-03-14 13:30:46,303 - INFO - Generating response using NLP model...
+2025-03-14 13:30:48,592 - INFO - Simulated feedback: too vague
+2025-03-14 13:30:48,592 - INFO - Generated answer: Go to the login page and click "Forgot Password." Enter your email and follow the link sent to you. | Feedback: too vague
+2025-03-14 13:30:48,592 - INFO - Reattempting answer generation with more detail.
+2025-03-14 13:30:48,592 - INFO - Final response for query: How do I reset my password? | Answer: Go to the login page and click "Forgot Password." Enter your email and follow the link sent to you.
+2025-03-14 13:30:48,593 - INFO - Processing query: What’s the refund policy?
+2025-03-14 13:30:48,593 - INFO - Retrieving relevant section for query: What’s the refund policy?
+2025-03-14 13:30:48,640 - INFO - Top relevant section found with similarity score: 0.70
+2025-03-14 13:30:48,641 - INFO - Generating response using NLP model...
+2025-03-14 13:30:49,660 - INFO - Simulated feedback: good
+2025-03-14 13:30:49,660 - INFO - Generated answer: We offer refunds within 30 days of purchase | Feedback: good
+2025-03-14 13:30:49,660 - INFO - Answer accepted based on feedback.
+2025-03-14 13:30:49,661 - INFO - Final response for query: What’s the refund policy? | Answer: We offer refunds within 30 days of purchase
+2025-03-14 13:30:49,661 - INFO - Processing query: How do I fly to the moon?
+2025-03-14 13:30:49,661 - INFO - Retrieving relevant section for query: How do I fly to the moon?
+2025-03-14 13:30:49,720 - WARNING - No relevant section found, returning fallback response.
+2025-03-14 13:30:49,721 - INFO - No relevant context found for query: How do I fly to the moon?
+2025-03-14 13:30:49,721 - INFO - SupportBotAgent execution completed.
+
+
+2025-03-14 13:31:40,706 - INFO - Starting SupportBotAgent...
+2025-03-14 13:31:40,706 - INFO - Initializing SupportBotAgent...
+2025-03-14 13:31:40,706 - INFO - Attempting to load document: /content/Customer Support Document.docx
+2025-03-14 13:31:40,706 - ERROR - Error loading document: Unsupported file format. Use PDF or TXT.
+
+
+2025-03-14 13:32:02,397 - INFO - Starting SupportBotAgent...
+2025-03-14 13:32:02,397 - INFO - Initializing SupportBotAgent...
+2025-03-14 13:32:02,397 - INFO - Attempting to load document: /content/Assignment.txt
+2025-03-14 13:32:02,398 - INFO - Document successfully loaded and processed.
+2025-03-14 13:32:02,398 - INFO - Loading sentence embedding model...
+2025-03-14 13:32:02,401 - INFO - Use pytorch device_name: cpu
+2025-03-14 13:32:02,402 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-14 13:32:03,051 - INFO - Loading question-answering model google/flan-t5-base
+2025-03-14 13:32:04,760 - INFO - Processing document into structured text chunks...
+2025-03-14 13:32:04,760 - INFO - Starting document chunking process...
+2025-03-14 13:32:05,062 - INFO - Document successfully chunked into 3 sections.
+2025-03-14 13:32:05,062 - INFO - Document processed into 3 chunks.
+2025-03-14 13:32:05,062 - INFO - Computing TF-IDF vectors for keyword-based retrieval...
+2025-03-14 13:32:05,071 - INFO - Computing sentence embeddings for semantic search...
+2025-03-14 13:32:05,382 - INFO - SupportBotAgent successfully initialized.
+2025-03-14 13:32:05,382 - INFO - Processing query: How do I reset my password?
+2025-03-14 13:32:05,382 - INFO - Retrieving relevant section for query: How do I reset my password?
+2025-03-14 13:32:05,524 - INFO - Top relevant section found with similarity score: 0.77
+2025-03-14 13:32:05,524 - INFO - Generating response using NLP model...
+2025-03-14 13:32:10,019 - INFO - Simulated feedback: too vague
+2025-03-14 13:32:10,019 - INFO - Generated answer: Go to the login page and click "Forgot Password." Enter your email and follow the link sent to you. | Feedback: too vague
+2025-03-14 13:32:10,019 - INFO - Reattempting answer generation with more detail.
+2025-03-14 13:32:10,019 - INFO - Retrieving relevant section for query: How do I reset my password?
+2025-03-14 13:32:10,095 - INFO - Top relevant section found with similarity score: 0.77
+2025-03-14 13:32:10,095 - INFO - Generating response using NLP model...
+2025-03-14 13:32:13,191 - INFO - Simulated feedback: good
+2025-03-14 13:32:13,191 - INFO - Generated answer: Go to the login page and click "Forgot Password." Enter your email and follow the link sent to you. | Feedback: good
+2025-03-14 13:32:13,192 - INFO - Answer accepted based on feedback.
+2025-03-14 13:32:13,192 - INFO - Final response for query: How do I reset my password? | Answer: Go to the login page and click "Forgot Password." Enter your email and follow the link sent to you.
+2025-03-14 13:32:13,192 - INFO - Processing query: What’s the refund policy?
+2025-03-14 13:32:13,192 - INFO - Retrieving relevant section for query: What’s the refund policy?
+2025-03-14 13:32:13,286 - INFO - Top relevant section found with similarity score: 0.70
+2025-03-14 13:32:13,286 - INFO - Generating response using NLP model...
+2025-03-14 13:32:14,677 - INFO - Simulated feedback: too vague
+2025-03-14 13:32:14,677 - INFO - Generated answer: We offer refunds within 30 days of purchase | Feedback: too vague
+2025-03-14 13:32:14,677 - INFO - Reattempting answer generation with more detail.
+2025-03-14 13:32:14,677 - INFO - Retrieving relevant section for query: What’s the refund policy?
+2025-03-14 13:32:14,754 - INFO - Top relevant section found with similarity score: 0.70
+2025-03-14 13:32:14,754 - INFO - Generating response using NLP model...
+2025-03-14 13:32:16,554 - INFO - Simulated feedback: not helpful
+2025-03-14 13:32:16,554 - INFO - Generated answer: We offer refunds within 30 days of purchase | Feedback: not helpful
+2025-03-14 13:32:16,554 - INFO - Reattempting answer generation with clearer phrasing.
+2025-03-14 13:32:16,554 - INFO - Final response for query: What’s the refund policy? | Answer: We offer refunds within 30 days of purchase
+2025-03-14 13:32:16,554 - INFO - Processing query: How do I fly to the moon?
+2025-03-14 13:32:16,554 - INFO - Retrieving relevant section for query: How do I fly to the moon?
+2025-03-14 13:32:16,616 - WARNING - No relevant section found, returning fallback response.
+2025-03-14 13:32:16,617 - INFO - No relevant context found for query: How do I fly to the moon?
+2025-03-14 13:32:16,617 - INFO - SupportBotAgent execution completed.
