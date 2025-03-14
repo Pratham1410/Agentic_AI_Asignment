@@ -1,4 +1,4 @@
-# SupportBot: AI-Powered Customer Support Chatbot
+# SupportBot: AI-Powered Customer Support Chatbot: https://huggingface.co/spaces/thamesh24/Agentic_Bot_GUI
 
 ## 🚀 Overview
 SupportBot is an intelligent customer support chatbot designed to answer queries by retrieving relevant information from a given document. It leverages a **hybrid retrieval-augmented generation (RAG) approach**, combining **semantic search** with **generative question answering** to provide accurate and conversational responses.
